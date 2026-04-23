@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+        }
+
+        header {
+            background-color: #0fcfff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #00637c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #16a085;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #0fcfff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portofolio Abimanyu Zacky </h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio Abimanyu</h2>
+            <p>
+                Assalamualaikum, perkenalkan nama saya abimanyu zacky nuryanto putra, ini adalah website yang saya buat sendiri untuk Ujian Praktek TIK, B indo dan Broadcasting.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Ujian praktek adalah program tahunan Al-haraki untuk kelas 9 sebagai syarat kelulusan, Mapel yang saya buat ini adalah gabungan Mata Pelajaran TIK, B indo dan Broadcasting, untuk TIK kita membuat sebuah website dari Kode HTML, untuk B indo, kita membuat TEKS ARGUMENTASI, dan Broadcasting kita membuat Video mengenai IC dari Teks Argumentasi Bahasa Indonesia.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan dari pembuatan website ini adalah Bagian dari Ujian Praktek Komputer yang bertujuan untuk membuat website menggunakan code HTML yang dimana bahasa komputer HTML ini sangat umum di gunakan dah cukup mudah untuk dimengerti bagi pemula untuk belajar website.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                Untuk Topik Argumentasinya saya adalah LIMATIGA STUDIOFOTO, Alasan saya memilih topik ini  karena saya MAgang di LIMATIGA FOTOSTUDIO, saya juga lumayan menyukai fotografi, karena itu saya memilih LimaTiga berawal dari passion saya satu satunya yang disukai di sekolah ini ada fotografi, saya memilih fotografi di bagian pertama dan broadcasting di bagian kedua, Alhamdulilah saya dapat Fotografi.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Sejujurnya saya membuat video monolog hanya melihat dari video video tiktok atau youtube, tapi semoga dari ilmu yang saya dapatkan dari kritik dan saran, bisa membuat saya berbenah dan membuat video lebih baik lagi
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+                Semoga dari ujian praktek ini saya bisa mendapatkan ilmu yang bermanfaat, kritik saran yang bisa berguna untuk saya kedepannya
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="foto 1.png" alt="Gambar Bebas 1">
+            <img src="foto 2.png" alt="Gambar Bebas 2">
+            <img src="foto 3.png" alt="Gambar Bebas 3">
+            <img src="foto 4.png" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Abimanyu Zacky@2026 </p>
+</footer>
+
+</body>
+</html>
